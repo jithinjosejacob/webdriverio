@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "bsa": "wdio run ./wdio.bs.android.conf.ts",
+    "bsi":"wdio run ./wdio.bs.ios.conf.ts", 
     "wdio": "wdio run ./wdio.conf.ts",
     "iosApp": "wdio run ./wdio.ios.conf.ts",
     "androidApp": "wdio run ./wdio.android.conf.ts",
