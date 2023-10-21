@@ -1,6 +1,6 @@
 exports.config = {
-    user:'surajkumar_L5mEf2',
-    key: 'Tpk2Lre7wthfofbkwr7B',
+  user:'username',
+  key: 'password',
   
     updateJob: false,
     specs: [
@@ -13,7 +13,7 @@ exports.config = {
       name: 'first_test',
       device: 'Google Pixel 3',
       os_version: "9.0",
-      app: 'bs://fcc382926f897eefa0a2fe192f098e62d9aeb687',
+      app: 'bs://8fca653da42aeecc6bea3d0ea71db2765231035c',
       'browserstack.debug': true
     }],
   

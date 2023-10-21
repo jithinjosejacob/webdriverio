@@ -68,8 +68,8 @@ export const config: Options.Testrunner = {
         // capabilities for local Appium web tests on an Android Emulator
         platformName: 'ios', // or "iOS"
         // browserName: 'Chrome', // or "Safari"
-        'appium:deviceName': 'iPhone 14', // or "iPhone Simulator"
-        'appium:platformVersion': '16.4', // or "16.2" (for running iOS v16)
+        'appium:deviceName': 'iPhone 15 Pro Max', // or "iPhone Simulator"
+        'appium:platformVersion': '17.0', // or "16.2" (for running iOS v16)
         'appium:automationName': 'XCUITest' , // or "XCUITest", 
         'appium:bundleId':"demo.DemoApp09961", 
         'appium:app':path.join(process.cwd(), './app/ios/DemoApp.app')

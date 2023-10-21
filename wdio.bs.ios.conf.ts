@@ -1,6 +1,6 @@
 exports.config = {
-    user:'surajkumar_L5mEf2',
-    key: 'Tpk2Lre7wthfofbkwr7B',
+  user:'username',
+  key: 'password',
   
     updateJob: false,
     specs: [
@@ -10,10 +10,10 @@ exports.config = {
     capabilities: [{
       project: "First Webdriverio iOS Project",
       build: 'Webdriverio iOS',
-      name: 'first_test',
-      device: 'iPhone 11 Pro Max',
-      os_version: "13.1",
-      app: 'bs://b1072cabfb14619cacdd51e31b0e59baba8a4844',
+      name: 'second_test',
+      device: 'iPhone 15 Pro Max',
+      os_version: "17",
+      app: 'bs://8c5999731a9106c6a67bf2d35fce51505b073bfb',
       'browserstack.debug': true
     }],
   

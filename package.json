@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bsa": "wdio run ./wdio.bs.android.conf.ts",
+    "bsap": "wdio run ./wdio.bs.android.conf.parallel.ts",
+    "bsam": "wdio run ./wdio.bs.android.conf.multiple.ts",
     "bsi":"wdio run ./wdio.bs.ios.conf.ts", 
+    "bsip":"wdio run ./wdio.bs.ios.conf.parallel.ts", 
     "wdio": "wdio run ./wdio.conf.ts",
     "iosApp": "wdio run ./wdio.ios.conf.ts",
     "androidApp": "wdio run ./wdio.android.conf.ts",
